@@ -1,0 +1,1 @@
+Unsupervised pre-training is a machine learning technique that leverages unlabeled data to learn a preliminary model, which can then be fine-tuned with a smaller amount of labeled data. This approach is particularly beneficial in scenarios where labeled data is scarce or expensive to obtain.

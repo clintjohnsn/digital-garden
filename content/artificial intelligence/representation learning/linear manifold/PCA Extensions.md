@@ -1,0 +1,11 @@
+- [[Logistic PCA]]
+	- allow for dealing with binary and categorical (discrete) input features
+- [[Sparse PCA]]
+	- overcome a PCA weakness that PCs are usually linear combinations of all the input features by using linear combinations of just a few input variables
+- **Nonlinear PCAs**
+	- for non linear manifolds
+	- [[Principal Curve Analysis]]
+- **Robust PCAs**
+	- overcome the PCA weakness that PCA is sensitive to outliers in the data that cause large errors, e.g., **weighted PCA**.
+- [[Probabilistic PCA]]
+	- a stochastic PCA variant (generative model) that explains the PCA process from a data generation perspective

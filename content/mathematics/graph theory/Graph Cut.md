@@ -1,0 +1,4 @@
+- For a graph G = (V,E),  graph cut **C** = (V<sub>A</sub>,V<sub>B</sub>) is a **partition** of vertices V into 2 **disjoint subsets** V<sub>A</sub> and V<sub>B</sub>
+- **cut-set**: set of edges that cut the graph, i.e. set of edges whose vertices are in different subsets of the partition.
+- **cost**: sum of weights of cut-set edges
+- ![[Pasted image 20240530135720.png]]

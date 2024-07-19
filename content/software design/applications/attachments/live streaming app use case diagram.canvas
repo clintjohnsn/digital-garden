@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"28e653edcd1e90a1","type":"text","text":"customer","x":-660,"y":-80,"width":160,"height":80,"color":"1"},
+		{"id":"9aa0ef770a35d24a","type":"text","text":"Video Consuming Service","x":380,"y":-35,"width":250,"height":70,"color":"3"},
+		{"id":"cfd0149422df9a22","type":"text","text":"View at max quality allowed by network and device","x":-337,"y":-320,"width":285,"height":110,"color":"4"},
+		{"id":"916845586e96c3f7","type":"text","text":"play a video from timestamp","x":-337,"y":-160,"width":250,"height":60,"color":"4"},
+		{"id":"8e069b8fa3595439","type":"text","text":"go back to a video from a left off timestamp","x":-337,"y":35,"width":250,"height":50,"color":"4"},
+		{"id":"57e88765a3d2cec9","type":"text","text":"buffer video when paused","x":-337,"y":260,"width":250,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"643137a98423205a","fromNode":"28e653edcd1e90a1","fromSide":"right","toNode":"cfd0149422df9a22","toSide":"left"},
+		{"id":"c37393b1879c07e7","fromNode":"28e653edcd1e90a1","fromSide":"right","toNode":"916845586e96c3f7","toSide":"left"},
+		{"id":"7623a8e88b479965","fromNode":"28e653edcd1e90a1","fromSide":"right","toNode":"8e069b8fa3595439","toSide":"left"},
+		{"id":"ab279fe2663785c1","fromNode":"28e653edcd1e90a1","fromSide":"right","toNode":"57e88765a3d2cec9","toSide":"left"},
+		{"id":"6ef06f451f3b45b6","fromNode":"cfd0149422df9a22","fromSide":"right","toNode":"9aa0ef770a35d24a","toSide":"top","toEnd":"none","label":"HTTP-DASH"},
+		{"id":"82371fee8d0755cc","fromNode":"916845586e96c3f7","fromSide":"right","toNode":"9aa0ef770a35d24a","toSide":"left","toEnd":"none","label":"getFrame(user,video,ts,agent=user)\nreturns videoFrame"},
+		{"id":"378d755d6dad8640","fromNode":"57e88765a3d2cec9","fromSide":"right","toNode":"9aa0ef770a35d24a","toSide":"bottom","label":"getFrame(user,video,ts, agent=device)\nreturns videoFrame"},
+		{"id":"9e73072773c2eca4","fromNode":"8e069b8fa3595439","fromSide":"right","toNode":"9aa0ef770a35d24a","toSide":"bottom","toEnd":"none","label":"seek(user,video)\nreturns timestamp"}
+	]
+}

@@ -1,0 +1,1 @@
+Same as [[Inter-rater Reliability]] for supervised [[NLP]] systems.

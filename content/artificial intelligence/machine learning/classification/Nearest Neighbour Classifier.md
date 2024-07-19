@@ -1,0 +1,7 @@
+- Find K nearest neighbours of a point, and classify the point on a majority vote of the neighbour classes 
+- point Similarity
+	- use [[L2 Norm]] as distance
+- larger the dataset, more robust the classifier
+- brute force approach
+	- calculate distance between the new point and every point in the classifier 
+	- computationally expensive

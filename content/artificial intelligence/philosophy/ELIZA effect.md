@@ -1,0 +1,2 @@
+- The tendency to project human traits — such as experience, semantic comprehension or empathy — into computer programs that have a textual interface.
+- named after the chatbot **ELIZA**, 1966

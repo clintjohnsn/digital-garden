@@ -1,0 +1,1 @@
+Starting at the leaves, each node is replaced with its most popular class.  If the prediction accuracy is not affected then the change is kept.

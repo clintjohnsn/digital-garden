@@ -1,0 +1,1 @@
+**statistical semantics** applies the methods of statistics to the problem of determining the meaning of words or phrases.

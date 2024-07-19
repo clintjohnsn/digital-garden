@@ -1,0 +1,8 @@
+- **SQL** (Structured Query Language) based databases
+- MySQL, PostgreSQL, …
+- Has a **fixed schema**, which can be modified later but requires downtime. So, careful schema design is required beforehand
+- Easily **vertically scalable** - more entities can be added. Horizontal scaling (adding more attributes to entities) is hard, requires complex [[Sharding]]
+- **Reliable** 
+	- Relational databases are great for **transactional**  data
+	- [[ACID]] compliant
+	- reduces anomalies

@@ -1,0 +1,5 @@
+- [[Hessian LLE]]
+- [[Modified LLE]]
+	- use multiple weights in each neighborhood to remedy distorted LLE maps and make LLE more robust.
+- [[Diffusion Map LLE]]
+- [[Local Tangent Space Alignment (LTSA)]]

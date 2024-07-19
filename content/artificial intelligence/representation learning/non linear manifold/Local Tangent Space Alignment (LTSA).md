@@ -1,0 +1,1 @@
+ when a manifold is correctly unfolded, all of the **tangent hyperplanes** to the manifold would become aligned.

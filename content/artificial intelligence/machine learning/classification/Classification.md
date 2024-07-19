@@ -1,0 +1,4 @@
+- [[Logistic Regression]]
+- [[Nearest Neighbour Classifier]]
+-  [[Support Vector Classifier]]
+- [[Decision Trees]]

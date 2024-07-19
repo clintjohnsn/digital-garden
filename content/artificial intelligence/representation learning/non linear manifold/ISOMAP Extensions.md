@@ -1,0 +1,10 @@
+- [[Conformal ISOMAP]]
+	- relax the convex manifold assumption by preserving manifold orientation instead of geodesic distance. 
+- [[C ISOMAP]]
+	- allow for magnifying the regions of high density but shrinking the regions of low density of data points in manifold. 
+- [[Incremental ISOMAP]]
+	- allow for online ISOMAP learning by embedded points one by one instead of training in a batch manner. 
+- [[Landmark ISOMAP]]
+	- overcome high computational burden in learning by using landmarks, only a subset of representative data.
+- [[Robust ISOMAP]]
+	- replace Dijkstra path-based geodesic distance estimates with **parallel transport unfolding** approximation for robustness to noise, a fundamental weakness of ISOMAP.

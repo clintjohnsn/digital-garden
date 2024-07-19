@@ -1,0 +1,3 @@
+- treats each timestep as a query to access and incorporate information from a set of values.
+- soft, averaging lookup table (fuzzy lookup in a key-value store)
+- 

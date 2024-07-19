@@ -1,0 +1,3 @@
+In [[Load Balancing]], when user (user id/ machine id/ cookie) is used for the hash function and **m** servers exist, the user is redirected to **h(u)%m**<sup>th</sup> server (where **u** is the key). When the number of servers n changes, all the mappings (for all **n** keys) change, and all the cache and user activity data on the server is lost. This is the problem consistent hashing solves.  
+ 
+Consistent Hashing is a technique such that when a hash table is resized, only **n/m** keys need to be remapped on average where **n** is the number of keys and **m** is the number of slots. 

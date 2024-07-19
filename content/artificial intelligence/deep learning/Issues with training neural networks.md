@@ -1,0 +1,5 @@
+-  [[Non convex optimization problem]]
+- [[Initializing weights and biases]]
+- [[Saturation]]
+- [[Vanishing Gradient Problem]] and [[Exploding Gradient Problem]]
+- [[Overfitting in Neural Networks]]

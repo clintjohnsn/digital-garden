@@ -1,0 +1,7 @@
+- Reduce image  resolution
+	- ![[Image Representation#Spatial Resolution]]
+- e.g. Throw away every other row and column to create a 1/2 size image
+- reduce size of the image by sacrificing some detail (small scale structures)
+- Remove noise first by **spatial averaging** (blurring or smoothing), so that we require less pixels to represent the image, i.e. same information in fewer pixels
+	- ![[Image Noise#Spatial Averaging]]
+- 

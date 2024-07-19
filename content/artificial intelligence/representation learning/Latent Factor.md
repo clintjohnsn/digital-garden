@@ -1,0 +1,1 @@
+Few hidden factors able to explain/decide data generating distribution

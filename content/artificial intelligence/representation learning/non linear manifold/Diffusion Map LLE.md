@@ -1,0 +1,1 @@
+replace linear reconstruction with [[Laplacian of graph]] having local similarities at different scales for global data description. 

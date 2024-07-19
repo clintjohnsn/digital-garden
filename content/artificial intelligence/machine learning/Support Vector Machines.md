@@ -1,0 +1,2 @@
+- [[Support Vector Regressor]]
+- [[Support Vector Classifier]]

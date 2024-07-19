@@ -1,0 +1,6 @@
+- creates optimal decision boundaries in a feature space
+	- **Linear decision boundary**: Create a n-1 dimensional decision boundary in a n-dimensional feature space
+- **margin**: width that the boundary can be increased by before hitting a point
+- ![[Pasted image 20240601165222.png]]
+- find a decision boundary with the maximum margin
+- the data points on the margin are called **support vectors**

@@ -1,0 +1,50 @@
+- partition image to segments
+- group pixels with similar visual characteristics
+	- the specificity or scale is dependent on the domain
+- segmentation in humans
+	- likely to be different
+	- subjective
+	- ill-defined problem
+- For gray images
+	- [[Binary Segmentation]]
+	- [[Active Contours]]
+## Theory
+- [[Gestalt Psychology]]
+## Approaches
+- **Top-down**
+	- pixels belong together because they come from the same object
+	- in line with [[Gestalt Psychology]]
+- **Bottom-up**
+	- pixels belong together because they look similar
+	- Most techniques are bottom-up
+### Clustering based
+- Cluster pixels based on its visual characteristics
+- Each pixel can be seen as a feature vector of 
+	- brightness
+	- colour (R,G,B channels)
+	- position
+	- depth
+	- motion
+	- texture
+	- material
+- Map the pixels into a feature space 
+- Pixel Similarity 
+	- Dissimilarity or distance between features → [[L2 Norm]]
+- Using pixel similarity/dissimilarity, cluster the features such that similar pixels cluster together
+- each cluster is an image segment
+- disjoint regions could belong to the same cluster
+	- using position as a feature could discourage this
+- Algorithms
+	- [[K-means Clustering]] based segmentation
+	- **Model-Free** : [[Mean shift Clustering]] based segmentation
+	- **Probabilistic** : [[Gaussian Mixture Models]] based segmentation
+		- **foreground-background classification**
+			- pixels are background most of the time. So gaussians with large scale **ω** and small **σ** are background.
+			- take the ratio of **ω/σ**
+#### Graph based
+- images as graphs → G = (V,E)
+	- a vertex for each pixel, and its features, like in clustering
+	- an edge → weighted by the **affinity** or similarity between vertices
+- Algorithms
+	-  [[Graph Cut Algorithm]] based Segmentation
+		- Each subgraph is an image segment

@@ -1,0 +1,1 @@
+- instances xn,yn appear one at a time

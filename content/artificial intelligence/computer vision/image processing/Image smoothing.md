@@ -1,0 +1,7 @@
+- using [[Convolution]]
+- Kernel
+	- mean (constant values in the kernel)
+		- [[Image Noise#Spatial Averaging]]
+	- weighted mean
+	- distributed
+			- [[Gaussian Smoothing]]

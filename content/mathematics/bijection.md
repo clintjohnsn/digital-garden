@@ -1,0 +1,1 @@
+[[one-to-one function]]  +  [[onto function]]
