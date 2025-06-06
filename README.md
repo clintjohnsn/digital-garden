@@ -1,5 +1,7 @@
-## My Digital Garden
+## My Notes
 
 This is my [_Digital Garden_](https://maggieappleton.com/garden-history), a working collection of notes on AI🧠 and Software Design✨.
 
-Built using Obsidian & Quartz.
+## Check out the [live site](notes.clintjohnsn.com) on my website
+
+> Built using Obsidian & Quartz.
